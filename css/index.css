@@ -1,0 +1,569 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	background: #ededed;
+}
+/* 顶部开始 */
+.top{
+	width: 100%;
+	height: 75px;
+	background: url('../img/toppic.png') no-repeat center
+}
+.topnav{
+	width: 1220px;
+	height: 75px;
+	margin: 0 auto;
+	/* background: red; */
+}
+.topnav .leftbox{
+	font-size: 32px;
+	line-height: 75px;
+	text-align: center;
+	width: 242px;
+	color: #619d01;
+	font-weight: bold;
+	float: left;
+}
+.topnav .rightbox{
+	width: 212px;
+	height: 75px;
+	float: right;
+	display: flex;
+	justify-content: space-between;
+}
+.rightbox a{
+	display: block;
+	width: 106px;
+	line-height: 75px;
+	font-size: 14px;
+	color: #c8c8c8;
+	text-align: center;
+	cursor: pointer;
+}
+.rightbox a:hover{
+	color: #fff;
+}
+.tabcontent{
+	width: 1220px;
+	height: 62px;
+	margin: 0 auto;
+}
+.tabcontent ul{
+	width: 528px;
+	height: 62px;   
+}
+.tabcontent ul li{
+	float: left;
+	position: relative;
+}
+.tabcontent ul li a{
+   display: block;
+   padding: 20px  20px;
+   color: #666;
+   font-size: 14px;
+   line-height: 22px;
+   
+}
+.tabcontent ul li a:hover{
+	color: blue;
+}
+.tabcontent ul li .shou{
+	padding-left: 0px;
+	font-weight: bold;
+}
+.xiala{
+	width: 160px;
+	height: 0px;
+	border-radius: 4px;
+	position: absolute;
+	top: 50px;
+	left: 0;
+	z-index: 99;
+	background: #fff;
+	overflow: hidden;
+}
+.tabcontent ul li .xiala .xia1{
+	display: block;
+	width: 160px;
+	height: 30px;
+	font-size: 14px;
+	color: #666;
+	line-height: 30px;
+	padding: 0;
+	margin-top: 10px;
+	margin-left: 5px
+}
+.tabcontent ul li .xiala .xia1:hover{
+	color: blue;
+}
+
+/* banner开始 */
+.banner{
+	width: 1220px;
+	height: 450px;
+	margin: 0 auto;
+	position: relative;
+}
+.banner .pictu{
+	width: 1220px;
+	height: 450px;
+	position: relative;
+	overflow: hidden;
+}
+.banner .pictu li{
+	width: 1220px;
+	height: 450px;
+	position: absolute;
+	left: 1220px;
+	top: 0;
+	z-index: 5;
+}
+.banner .pictu li img{
+	display: block;
+	width: 1220px;
+	height: 450px;
+	border-radius: 8px;
+}
+.btnn{
+	width: 90px;
+	height: 12px;
+	position: absolute;
+	right: 568px;
+	bottom: 24px;
+	display: flex;
+	justify-content: space-between;
+	z-index: 10;
+}
+.btnn li{
+	width: 6px;
+	height: 6px;
+	background: rgba(0, 0, 0, 0.4);
+    border: 2px solid #9a8888;
+    border-radius: 50%;
+}
+.btnn .hot{
+	background: rgba(255,255, 255, 0.4);
+}
+/* banner结束 */
+/* 风格开始 */
+.rooms{
+	width: 1220px;
+	height: 439px;
+	margin: 0 auto;
+	margin-top: 60px;
+	border-radius: 8px;
+	border: 1px  solid rgba(0, 0, 0, 0.14);
+	background: #fff;
+}
+.topr{
+	width: 100%;
+	height: 55px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+    padding-top: 15px;
+}
+.lefttop{
+	width: 300px;
+	height: 55px;
+	margin-left: 30px;
+	float: left;
+}
+.lefttop h3{
+  font-size: 22px;
+  font-weight: 300;
+  color: #666;
+}
+.lefttop p{
+	font-size: 13px;
+	color: #848484;
+}
+.righttop{
+	width: 200px;
+	height: 55px;
+	float: right;
+	margin-right: 30px;
+}
+.righttop a{
+	width: 36px;
+	height: 36px;
+    display: block;
+    float: right;
+    border: 1px solid rgba(0, 0, 0, 0.14);
+    border-radius: 4px;
+    margin-left: 10px;
+    line-height: 36px;
+    text-align: center;
+}
+.righttop a:hover{
+	background: rgba(0,0,0,0.06);
+}
+.fengge{
+	width: 2438px;
+	height: 368px;
+}
+.xibox{
+	width: 1219px;
+	height: 368px;
+	overflow: hidden;
+}
+.fengge li{
+	width: 304px;
+	height: 368px;
+	border-right: 1px solid rgba(0, 0, 0, 0.14);
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.fengge li:last-child{
+	border-right: none;
+}
+.fengge li:hover .stpic img{
+  transform: scale(1.02)
+}
+.fengge li:hover{
+	box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.05) inset;
+}
+.fengge li:hover .xq{
+  display: block;
+}
+.stpic{
+	width: 304px;
+	height: 261px;
+	position: absolute;
+	left: 0px;
+	top: 0;	
+}
+.tubox{
+	width: 304px;
+	height: 261px;
+	overflow: hidden;
+}
+.stpic img{
+	width: 275px;
+	height: 181px;
+	display: block;
+	padding: 40px 14px;
+	transition: all 0.6s cubic-bezier(0.17, 0.84, 0.44, 1);
+}
+.circle{
+	width: 303px;
+	height: 22px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 229px ;
+}
+.circle a{
+	display: block;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	border: 1px solid rgba(0, 0, 0, 0.14);
+	margin-right: 5px;
+	box-sizing: border-box;
+
+}
+.circle .got{
+	border: 2px solid #bfbfbf;
+}
+.stitle{
+	width: 100%;
+	height: 45px;
+}
+.stitle h2{
+	font-size: 16px;
+	color: #424242;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.stitle p{
+	font-size: 12px;
+	color: #b2b2b2;
+	text-align: center;
+}
+.xq{
+	width: 98px;
+	height: 28px;
+	border: 1px solid rgba(0, 0, 0, 0.14);
+	border-radius: 4px;
+	font-size: 11px;
+	color: #646464;
+	line-height: 28px;
+	text-align: center;
+	cursor: pointer;
+	margin: 10px auto;
+	display: none;
+}
+.xq:hover{
+	background: rgba(0,0,0,0.06);	
+}
+/* team开始 */
+.team{
+	width: 1220px;
+	height: 546px;
+	margin: 0 auto;
+	margin-top: 60px;
+	border: 1px solid rgba(0, 0, 0, 0.14);
+	border-radius: 8px;
+	background: #fff;
+}
+.teamtop{
+	width: 100%;
+	height: 55px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+	padding-top: 15px;
+}
+.teamleft{
+    width: 300px;
+	height: 55px;
+	margin-left: 30px;
+	float: left;
+}
+.teamleft h3{
+    font-size: 22px;
+    font-weight: 300;
+    color: #666;
+}
+.teamleft p{
+	font-size: 12px;
+	color: #b2b2b2;
+}
+.teamright{
+	display: block; 
+	width: 100px;
+	height: 34px;
+	border: 1px solid rgba(0, 0, 0, 0.14);
+	font-size: 14px;
+	text-align: center;
+	line-height: 34px;
+	float: right;
+	margin-right: 15px;
+	border-radius: 4px;
+	color: #666;
+}
+.teamright:hover{
+	background: rgba(0,0,0,0.06);
+}
+.tteam{
+	width: 100%;
+	height: 474px;
+}
+.tteam li{
+	width: 304px;
+	height: 474px;
+	border-right: 1px solid rgba(0, 0, 0, 0.14);
+	float: left;
+}
+.tteam li:last-child{
+	border-right: none;
+}
+.person{
+	width: 100%;
+	height: 300px;
+}
+.person img{
+	width: 195px;
+	height: 250px;
+	padding: 55px;
+	display: block;
+	padding-bottom: 0;
+}
+.renname{
+	width: 100%;
+	height: 27px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+.renname .one{
+	font-size: 16px;
+	color: #424242;
+	margin-right: 5px;
+}
+.renname .two{
+	font-size: 14px;
+	color: #424242;
+}
+.line{
+	width: 180px;
+	height: 1px;
+	background: #eeeeee;
+	margin: 12px auto;
+}
+.jieshao{
+	font-size: 14px;
+	color: #b2b2b2;
+	text-align: center;
+}
+.chakan{
+	width: 98px;
+	height: 28px;
+	border: 1px solid rgba(0, 0, 0, 0.14);
+	border-radius: 4px;
+	font-size: 11px;
+	color: #646464;
+	line-height: 28px;
+	text-align: center;
+	cursor: pointer;
+	margin: 10px auto;
+	display: none;
+}
+.chakan:hover{
+	background: rgba(0,0,0,0.06);	
+}
+.tteam li:hover{
+	box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.05) inset;
+}
+.tteam li:hover .chakan{
+  display: block;
+}
+/* team结束 */
+/* contact开始 */
+.contact{
+	width: 1220px;
+	height: 511px;
+	border: 1px solid rgba(0, 0, 0, 0.14);
+	border-radius: 8px;
+	margin: 0 auto;
+	margin-top: 60px;
+	background: #fff;
+}
+.conpic{
+	width: 577px;
+	height: 241px;
+	padding: 30px;
+}
+.confont{
+	width: 300px;
+	height: 80px;
+	font-size: 32px;
+	color: #e5e5e5;
+	line-height: 80px;
+	text-align: center;
+	margin-top: 15px;
+}
+.conleft{
+	width: 637px;
+	height: 100%;
+	overflow: hidden;
+	float: left;
+}
+.conright{
+	padding-top: 110px;
+}
+.name span{
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 2px;
+}
+.name input{
+	width: 439px;
+	height: 36px;
+}
+.phone{
+	margin-top: 20px;
+}
+.phone span{
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 2px;
+}
+.phone input{
+	width: 439px;
+	height: 36px;
+}
+.neirong span{
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
+	float: left;
+}
+.neirong{
+	margin-top: 20px;
+}
+.neirong textarea{
+	display: block;
+	float: left;
+	margin-left: 6px;
+}
+.tijiao{
+
+	width: 196px;
+	height: 44px;
+	background: #619d01;
+	border-radius: 4px;
+	margin: 40px 33px;
+	border: none;
+	font-size: 14px;
+	color: #fff;
+}
+/* contact结束 */
+/* footer开始 */
+footer{
+	height: 317px;
+	background: #fff;
+	border:  1px solid rgba(0, 0, 0, 0.14);
+	margin-top: 60px;
+}
+.nei{
+	width: 1220px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.zuopic{
+	width: 214px;
+	height: 99px;
+	margin: 80px 0;
+	float: left;
+	margin-left: 20px;
+}
+.zuopic span{
+	font-size: 32px;
+	color: #414141;
+}
+.zuopic p{
+	font-size: 14px;
+	color:#b2b2b2 ;
+}
+.nei ul{
+	width: 820px;
+	height: 160px;
+	float: left;
+	margin-top: 80px;
+	margin-left: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.nei ul li{
+	width: 205px;
+	height: 160px;
+}
+.nei ul li a{
+	display: block;
+	font-size: 14px;
+	line-height: 32px;
+	color: #969696;
+}
+.we{
+	font-weight: bold;
+	color: rgb(153, 153, 153);
+}
+.bottomp{
+	width: 100%;
+	height: 22px;
+	font-size: 14px;
+	color: #969696;
+	text-align: center;
+	line-height: 22px;
+	position: absolute;
+	top: 287px;
+
+}
+/* footer结束 */
