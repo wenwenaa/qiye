@@ -1,9 +1,3 @@
-/*
-* @Author: abc
-* @Date:   2018-06-19 19:16:03
-* @Last Modified by:   abc
-* @Last Modified time: 2018-06-24 21:03:41
-*/
 *{
 	padding: 0;
 	margin: 0;
@@ -57,7 +51,7 @@ body{
 	width: 1220px;
 	height: 62px;
 	margin: 0 auto;
-}
+	}
 .tabcontent ul{
 	width: 528px;
 	height: 62px;   
@@ -77,8 +71,11 @@ body{
 	color: blue;
 }
 .tabcontent ul li .shou{
+	padding-left: 0px;
+	
+}
+.tabcontent ul li .fuwu{
 	font-weight: bold;
-	padding-left: 0;
 }
 .xiala{
 	width: 120px;
@@ -171,7 +168,6 @@ body{
 }
 .tabcontent1 ul li .shou{
 	padding-left: 0px;
-	font-weight: bold;
 }
  .tabcontent1 .xiala{
 	width: 120px;
@@ -225,112 +221,102 @@ body{
 	color: blue;
 	background: #ccc;
 }
+.tabcontent1 ul li .fuwu{
+	font-weight: bold;
+}
 /* 定位的导航结束 */
-/* 详情 */
-.titlea{
+/* 顶部结束 */
+/* 咨询开始 */
+.zixuntop{
 	width: 1220px;
-	height: 53px;
+	height: 64px;
 	margin: 0 auto;
-	margin-top: 20px;
-	position: relative;
+	
 }
-.titlea h2{
-	font-size: 26px;
-	color: #619d01;
-	font-weight: 300;
-	margin: 0 auto;
+.topti{
+	font-size: 24px;
 	text-align: center;
+	line-height: 64px;
+	float: left;
+	margin-left: 550px;
 }
-.titlea p{
-	width: 104px;
-	height: 5px;
-	background: #619d01;
-	margin: 14px auto 0 auto;
-	z-index: 2;
+.search-input{
+	width: 167px;
+	height: 36px;
+	float: right;
+	border-radius: 8px;
+	border: 1px solid #ccc;
+	position: relative;
+	box-shadow:0 3px 5px -4px rgba(0, 0, 0, 0.4) inset, -1px 0 3px -2px rgba(0, 0, 0, 0.1) inset;
 }
-.xialine{
-	width: 1220px;
-	height: 1px;
-	border-top: 1px solid #b2b2b2;
+.search-input input{
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+	background: none;
+	border: none;
+	padding-left: 10px;
+	outline: none;
+}
+.search-input button{
 	position: absolute;
-	left: 0;
-	bottom: 1px;
-	z-index: -1;
+	right: 10px;
+	top: 12px;
+	border: none;
+	background: none;
 }
-/* 内容 */
-.cont{
-	width: 1190px;
-	height: 369px;
-	margin: 40px auto;
+.search-input .icon-sousuo{
+	font-size: 14px;
+	font-weight: 400;
+}
+.zixun{
+	width: 1220px;
+	height: 1300px;
+	margin: 0 auto;
 	background: #fff;
-	border: 1px solid rgba(0,0,0,0.14);
 	border-radius: 8px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
 }
-.img{
-	width: 499px;
-	height: 369px;
-	/* margin-left: 15px; */
+.zixun li{
+	width: 1150px;
+	height: 230px;
+}
+.zixun li .imgbox{
+	width: 353px;
+	height: 230px;
 	float: left;
 }
-.img>img{
-	width: 100%;
-	height: 100%;
-	border-radius: 8px;
-	display: block;
+.zixun li img{
+	width: 353px;
+	height: 230px;
 }
-.img1>img{
-	width: 100%;
-	height: 100%;
-	border-radius: 8px;
-	display: block;
-}
-.rbo{
-	width: 600px;
-	height: 369px;
-	margin-right: 30px;
-	float: right;
-}
-.rfont{
-	width: 352px;
-	height: 299px;
-	margin: 35px auto;
-}
-.meishi{
-	font-size: 16px;
-	color: rgb(68,68,68);
-	line-height: 21px;
-	display: block;
-}
-.innerb{
-	width: 352px;
-	height: 120px;
-    margin: 40px auto 0 0;
-}
-.innerb span{
-	display: block;
-	font-size: 14px;
-	color: rgb(119,119,119);
-	line-height: 30px;
-}
-.shuomi{
-	font-size: 14px;
-	color: rgb(119,119,119);
-	line-height: 30px;
-	margin-top: 35px;
-}
-.img1{
-	width: 499px;
-	height: 369px;
-	/* margin-left: 15px; */
-	float: right;
-}
-.rbo1{
-	width: 600px;
-	height: 369px;
-	margin-left: 30px;
+.shuoming{
+	width: 777px;
+	height: 230px;
 	float: left;
+	margin-left: 20px;
+	padding-top: 10px;
 }
-/* footer */
+.shuoming h2{
+	font-size: 20px;
+	color: #666;
+	line-height: 30px;
+	cursor: pointer;
+}
+.shuoming h2:hover{
+	color: blue;
+}
+.shuoming p{
+	font-size: 14px;
+	color: #ccc;
+	line-height: 30px;
+	margin-top: 30px;
+	
+}
+/* footer开始 */
 footer{
 	height: 317px;
 	background: #fff;
@@ -377,6 +363,9 @@ footer{
 	line-height: 32px;
 	color: #969696;
 }
+.nei ul li a:hover{
+   color: blue;
+}
 .we{
 	font-weight: bold;
 	color: rgb(153, 153, 153);
@@ -392,6 +381,7 @@ footer{
 	top: 287px;
 
 }
+/* footer结束 */
 .fanding{
 		width: 54px;
 		height: 54px;

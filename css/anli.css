@@ -51,7 +51,12 @@ body{
 	width: 1220px;
 	height: 62px;
 	margin: 0 auto;
-	border-bottom: 1px solid rgba(0,0,0,0.14);
+	/* position: fixed;
+	top: 75px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto; */
 }
 .tabcontent ul{
 	width: 528px;
@@ -59,23 +64,173 @@ body{
 }
 .tabcontent ul li{
 	float: left;
+	position: relative;
 }
 .tabcontent ul li a{
    display: block;
    padding: 20px  20px;
    color: #666;
    font-size: 14px;
-   line-height: 22px;
+   line-height: 22px;  
 }
 .tabcontent ul li a:hover{
 	color: blue;
 }
 .tabcontent ul li .shou{
 	padding-left: 0px;
+	
 }
 .tabcontent ul li .fuwu{
 	font-weight: bold;
 }
+.xiala{
+	width: 120px;
+	height: 0px;
+	border-radius: 4px;
+	top: 50px;
+	left: 0;
+	z-index: 99;
+	background: #fff;
+	overflow: hidden;
+	position: absolute;
+}
+.tabcontent ul li .xiala .xia1{
+	display: block;
+	width: 120px;
+	height: 30px;
+	font-size: 14px;
+	color: #666;
+	line-height: 30px;
+	padding: 0;
+	margin-top: 10px;
+	padding-left: 5px;
+}
+.tabcontent ul li .xiala .xia1:hover{
+	color: blue;
+	background: #ccc;
+}
+.xiala1{
+	width: 120px;
+	height: 0px;
+	border-radius: 4px;
+	top: 50px;
+	left: 0;
+	z-index: 99;
+	background: #fff;
+	overflow: hidden;
+	position: absolute;
+}
+.tabcontent ul li .xiala1 .xia2{
+	display: block;
+	width: 120px;
+	height: 30px;
+	font-size: 14px;
+	color: #666;
+	line-height: 30px;
+	padding: 0;
+	margin-top: 10px;
+	padding-left: 5px
+}
+.tabcontent ul li .xiala1 .xia2:hover{
+	color: blue;
+	background: #ccc;
+}
+/* 定位的导航 */
+.tabd{
+	width: 100%;
+	height: 62px;
+	background: #ededed;
+	position: fixed;
+	top: -62px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	background: #ededed;
+	z-index: 100;
+}
+.tabcontent1{
+	width: 1220px;
+	height: 62px;
+	margin: 0 auto;
+}
+.tabcontent1 ul{
+	width: 528px;
+	height: 62px;   
+}
+.tabcontent1 ul li{
+	float: left;
+	position: relative;
+}
+.tabcontent1 ul li a{
+   display: block;
+   padding: 20px  20px;
+   color: #666;
+   font-size: 14px;
+   line-height: 22px;  
+}
+.tabcontent1 ul li a:hover{
+	color: blue;
+}
+.tabcontent1 ul li .shou{
+	padding-left: 0px;
+}
+ .tabcontent1 .xiala{
+	width: 120px;
+	height: 0px;
+	border-radius: 4px;
+	top: 50px;
+	left: 0;
+	z-index: 99;
+	background: #fff;
+	overflow: hidden;
+	position: absolute;
+}
+.tabcontent1 ul li .xiala .xia1{
+	display: block;
+	width: 120px;
+	height: 30px;
+	font-size: 14px;
+	color: #666;
+	line-height: 30px;
+	padding: 0;
+	margin-top: 10px;
+	padding-left: 5px
+}
+.tabcontent1 ul li .xiala .xia1:hover{
+	color: blue;
+	background: #ccc;
+}
+.tabcontent1  .xiala1{
+	width: 120px;
+	height: 0px;
+	border-radius: 4px;
+	top: 50px;
+	left: 0;
+	z-index: 99;
+	background: #fff;
+	overflow: hidden;
+	position: absolute;
+}
+.tabcontent1 ul li .xiala1 .xia2{
+	display: block;
+	width: 120px;
+	height: 30px;
+	font-size: 14px;
+	color: #666;
+	line-height: 30px;
+	padding: 0;
+	margin-top: 10px;
+	padding-left: 5px
+}
+.tabcontent1 ul li .xiala1 .xia2:hover{
+	color: blue;
+	background: #ccc;
+}
+.tabcontent1 ul li .fuwu{
+	font-weight: bold;
+}
+/* 定位的导航结束 */
 /* 顶部结束 */
 .smalltab{
 	width: 1220px;
@@ -110,5 +265,173 @@ body{
 	margin: 0 auto;
 	background: #fff;
 	border-radius: 8px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
 }
+
 /* 客厅布置结束 */
+/* 厨房餐厅开始  */
+.xiangmu1{
+	width: 1220px;
+	height: 64px;
+	margin: 30px auto;
+	font-size: 24px;
+	text-align: center;
+	line-height: 64px;
+}
+.chufang{
+	width: 1220px;
+	height: 458px;
+	margin: 0 auto;
+	background: #fff;
+	border-radius: 8px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.box1{
+	width: 300px;
+	height: 428px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-around;
+	float: left;
+}
+.box2{
+	width: 400px;
+	height: 419px;
+	float: left;
+}
+.box2 img{
+	display: block;
+	padding: 5px;
+}
+/* 厨房餐厅结束 */
+/* 浴室开始 */
+.xiangmu2{
+	width: 1220px;
+	height: 64px;
+	margin: 30px auto;
+	font-size: 24px;
+	text-align: center;
+	line-height: 64px;
+}
+.yushi{
+	width: 1220px;
+	height: 531px;
+	margin: 0 auto;
+	background: #fff;
+	border-radius: 8px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.ybox1{
+	width: 322px;
+	height: 501px;
+	float: left;
+
+}
+.ybox1 img{
+	display: block;
+	padding: 11px 2px;
+}
+.ybox2{
+	width: 408px;
+	height: 501px;
+	float: left;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+}
+.ybox3{
+	width: 317px;
+	height: 501px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+}
+.ybox3 img{
+	display: block;
+	width: 317px;
+	height: 230px;
+}
+/* 浴室结束 */
+/* 底部 */
+/* footer开始 */
+footer{
+	height: 317px;
+	background: #fff;
+	border:  1px solid rgba(0, 0, 0, 0.14);
+	margin-top: 60px;
+}
+.nei{
+	width: 1220px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.zuopic{
+	width: 214px;
+	height: 99px;
+	margin: 80px 0;
+	float: left;
+	margin-left: 20px;
+}
+.zuopic span{
+	font-size: 32px;
+	color: #414141;
+}
+.zuopic p{
+	font-size: 14px;
+	color:#b2b2b2 ;
+}
+.nei ul{
+	width: 820px;
+	height: 160px;
+	float: left;
+	margin-top: 80px;
+	margin-left: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.nei ul li{
+	width: 205px;
+	height: 160px;
+}
+.nei ul li a{
+	display: block;
+	font-size: 14px;
+	line-height: 32px;
+	color: #969696;
+}
+.we{
+	font-weight: bold;
+	color: rgb(153, 153, 153);
+}
+.bottomp{
+	width: 100%;
+	height: 22px;
+	font-size: 14px;
+	color: #969696;
+	text-align: center;
+	line-height: 22px;
+	position: absolute;
+	top: 287px;
+
+}
+/* footer结束 */
+.fanding{
+		width: 54px;
+		height: 54px;
+		position: fixed;
+		top: 500px;
+		right: 0;
+		display: none;
+		cursor: pointer;
+
+	}
